@@ -14,9 +14,7 @@ import javax.servlet.http.HttpSession;
 public class NewCustomerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	/**
-	 * @see HttpServlet#HttpServlet()
-	 */
+	
 	public NewCustomerServlet() {
 		super();
 	}
@@ -36,10 +34,7 @@ public class NewCustomerServlet extends HttpServlet {
 		response.sendRedirect("/WEB-INF/views/account_activity.html");
 	}
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
-	 *      response)
-	 */
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
